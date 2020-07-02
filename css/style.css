@@ -1,4 +1,17 @@
-.jumbotron {
+/* .jumbotron  {
   background-image: url("../resources/seattle.jpg");
   background-size: cover;
+} */
+
+#aboutMe {
+  /* https://www.eggradients.com/category/blue-white-gradient */
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
+}
+
+#welcomePage {
+  background-image: url("../resources/seattle.jpg");
+  background-size: cover;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
