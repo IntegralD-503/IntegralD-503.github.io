@@ -59,15 +59,19 @@ function fetchMovies(url) {
 
 function displayData(jsonObj) {
   console.log(jsonObj.Search);
-  let count = 0;
 
-  jsonObj.Search.forEach((element) => {
-    if(count <= 12)
-    createCard(element);
-    count++;
-    else
-    
+  jsonObj.Search.forEach((movie) => {
+    createCard(movie);
   });
+  // let count = 0;
+
+  // jsonObj.Search.forEach((element) => {
+  //   if(count <= 12)
+  //   createCard(element);
+  //   count++;
+  //   else
+
+  // });
 }
 // add event listerns to submit button
 // create card when button is pressed
